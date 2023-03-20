@@ -12,6 +12,7 @@ public class Job {
     @Size(min = 2, max = 50, message = "Position should be between 2 and 50 characters")
     private String position;
 
+    
     @Min(value = 0, message = "Salary should be greater than 0")
     private int salary;
 
